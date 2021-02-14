@@ -9,13 +9,3 @@ $(document).ready(function(){
 
 }); 
 
- x =      function read_json() {
-            $.getJSON("/test.json", function(data) {
-                alert("My data: " + data["mydata"]);
-                $.each(data["prime"], function(idx,prime) {
-                    alert("Prime number: " + prime);
-                });
-            });
-        }
-
-cl(x.employee,name)
